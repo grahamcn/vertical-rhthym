@@ -1,0 +1,66 @@
+html {
+  font-size: 12px;
+  font-family: Arial, sans-serif;
+}
+
+@media screen and (min-width: 480px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+/* pick a base font size on the body for ems */
+/* pick a base font size on the html el for rem ie at the root */
+p {
+  font-size: 1rem; /* 12px */
+  line-height: 1.5rem; /* 18px */
+  margin: 0 0 1.5rem 0;
+}
+
+/* 24px - The quick brown fox jumps over the lazy dog */
+.class-for-24px {
+  font-size: 2rem; /* 24px */
+  line-height: 1.5rem; /* 36px */
+  margin-top: 0.75rem;
+  margin-bottom: 0rem;
+}
+
+/* 22px - The quick brown fox jumps over the lazy dog */
+.class-for-22px {
+  font-size: 1.8333rem; /* 22px */
+  line-height: 1.6364rem; /* 36px */
+  margin-top: 0.8182rem;
+  margin-bottom: 0rem;
+}
+
+/* 20px - The quick brown fox jumps over the lazy dog */
+.class-for-20px {
+  font-size: 1.6667rem; /* 20px */
+  line-height: 1.8rem; /* 36px */
+  margin-top: 0.9rem;
+  margin-bottom: 0rem;
+}
+
+/* 18px - The quick brown fox jumps over the lazy dog */
+.class-for-18px {
+  font-size: 1.5rem; /* 18px */
+  line-height: 1rem; /* 18px */
+  margin-top: 1rem;
+  margin-bottom: 0rem;
+}
+
+/* 16px - The quick brown fox jumps over the lazy dog */
+.class-for-16px {
+  font-size: 1.3334rem; /* 16px */
+  line-height: 1.125rem; /* 18px */
+  margin-top: 1.125rem;
+  margin-bottom: 0rem;
+}
+
+/* 14px - The quick brown fox jumps over the lazy dog */
+.class-for-14px {
+  font-size: 1.1667rem; /* 14px */
+  line-height: 1.2857rem; /* 18px */
+  margin-top: 1.2857rem;
+  margin-bottom: 0rem;
+}
